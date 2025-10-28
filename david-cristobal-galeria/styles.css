@@ -35,16 +35,14 @@ header {
 }
 
 .container-cartas {
-  border: 2px solid green;
-  padding-right: 10px
+  padding-right: 10px;
 }
 
 img {
-  border: 2px yellow solid;
   width: 500px;
   height: auto;
   gap: 25px;
 }
-.items-center{
-    align-items: center;
+.items-center {
+  align-items: center;
 }
