@@ -7,17 +7,18 @@ header {
   display: flex;
   justify-content: center;
 }
-.container {
+.container-cartas {
   display: flex;
-  gap: 25px;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .destacado {
   background-color: rgb(143, 195, 211);
   font-weight: bold;
 }
-.flex {
-  display: flex;
-}
+
 .menu {
   display: flex;
   gap: 30px;
@@ -34,15 +35,23 @@ header {
   font-size: 20px;
 }
 
-.container-cartas {
-  padding-right: 10px;
+.container-cartas a {
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 4rem;
 }
 
 img {
-  width: 500px;
+  width: 200px;
   height: auto;
   gap: 25px;
 }
 .items-center {
+  display: flex;
   align-items: center;
+  gap: 20px;
+}
+p {
+  font-size: 16px;
 }
