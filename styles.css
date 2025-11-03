@@ -83,3 +83,11 @@ p {
 .imagen-grande {
 width: 600px;
 }
+
+.imagen-pequeña {
+  width: 300px;
+}
+
+.imagen-mediana {
+  width: 190px;
+}
