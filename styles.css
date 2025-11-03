@@ -69,3 +69,17 @@ p {
   color: white;
   font-size: 20px;
 }
+
+/* ESTILOS DE LA PAGINA DE IMAGENES (1-10) */
+.container-cartas-paginas{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 800px;
+  background-color: blanchedalmond;
+}
+
+.imagen-grande {
+width: 600px;
+}
